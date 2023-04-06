@@ -1,0 +1,12 @@
+CREATE todo (
+    id INT,
+    todo VARCHAR(200),
+    priority VARCHAR(200),
+    status VARCHAR(200)
+)
+
+INSERT INTO todo (id,todo,priority,status)
+VALUES (1,"LEARN HTML","LOW","DONE"),
+(2,"LEARN CSS","MEDIUM","IN PROGRESS"),
+(3,"LEARN PYTHON","HIGH","IN PROGRESS"),
+(4,"LEARN MONGO DB","LOW","TO DO")
